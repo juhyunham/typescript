@@ -11,6 +11,7 @@ const calculate = (operator: Operator, x: number, y: number): number => {
 		case 'divide':
 			return x / y;
 		case 'remainder':
+
 			return x % y;
 		default:
 			throw Error(`unknown command`);
